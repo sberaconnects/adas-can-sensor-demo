@@ -114,6 +114,23 @@ Includes unit tests for:
 
 ---
 
+## 📦 Makefile Commands
+
+Use these handy shortcuts to run and test your project:
+
+```bash
+make install         # pip install -e .
+make run             # live mode with matplotlib
+make replay          # replay mode from CSV
+make web             # run Dash web dashboard
+make plot            # static matplotlib graph
+make test            # run all pytest unit tests
+make docker-build    # build Docker image
+make docker-run-web  # run dashboard inside container
+```
+
+---
+
 ## 🧰 Configuration
 
 Edit the YAML file at `config/adas_config.yaml`:
