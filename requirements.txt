@@ -1,0 +1,5 @@
+python-can
+pytest
+matplotlib
+dash
+pyyaml
