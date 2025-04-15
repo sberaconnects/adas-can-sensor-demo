@@ -10,7 +10,7 @@ A complete Python-based Advanced Driver Assistance System (ADAS) demo that simul
 ## 🎥 Demo Preview
 
 ![ADAS Demo - liveplot](assets/adas-liveplot-demo.gif)
-![ADAS Demo - webdashboard](assets/adas-web-dashboard-demo)
+![ADAS Demo - webdashboard](assets/adas-web-dashboard-demo.gif)
 
 ---
 
