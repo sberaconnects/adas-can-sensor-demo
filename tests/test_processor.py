@@ -1,4 +1,3 @@
-import pytest
 from processor.adas_processor import ADASProcessor
 
 

@@ -1,5 +1,4 @@
 from canbus.can_interface import CANInterface
-import pytest
 
 
 def test_parse_sensor_data():
