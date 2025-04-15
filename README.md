@@ -1,4 +1,4 @@
-[![Lint & Docker Build](https://github.com/sberaconnects/adas-can-sensor-demo/actions/workflows/python-lint-docker.yml/badge.svg)]
+[![🧼 Lint & Docker Build](https://github.com/sberaconnects/adas-can-sensor-demo/actions/workflows/python-lint-docker.yml/badge.svg)](https://github.com/sberaconnects/adas-can-sensor-demo/actions/workflows/python-lint-docker.yml)
 
 
 # ADAS CAN Sensor Simulator & Visualizer
