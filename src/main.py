@@ -10,7 +10,7 @@ from processor.adas_processor import ADASProcessor
 from visualizer.dashboard import CLIDashboard
 from processor.logger import ADASLogger
 from visualizer.live_plot import LivePlot  # if you split it out
-from visualizer.web_dashboard import run_dashboard, push_data
+from visualizer.web_dashboard import push_data
 
 import logging
 

@@ -49,7 +49,7 @@ class LivePlot:
         return self.lines.values()
 
     def run(self):
-        ani = animation.FuncAnimation(
+        self.ani = animation.FuncAnimation(
             self.fig, self.animate, interval=1000, cache_frame_data=False
         )
         plt.show()
