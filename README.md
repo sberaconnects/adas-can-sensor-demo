@@ -4,6 +4,13 @@ A complete Python-based Advanced Driver Assistance System (ADAS) demo that simul
 
 ---
 
+## 🎥 Demo Preview
+
+![ADAS Demo - liveplot](assets/adas-liveplot-demo.gif)
+![ADAS Demo - webdashboard](assets/adas-web-dashboard-demo)
+
+---
+
 ## 🚀 Features
 
 - **CAN Sensor Simulator** using `python-can`
@@ -158,10 +165,9 @@ web:
 - [x] CLI dashboard
 - [x] Matplotlib-based live plot
 - [x] Dash web UI
-- [x] Configurable via YAML
-- [x] Dockerization
-- [x] CLI packaging with setup.py
-- [x] Pytest integration and GitHub Actions
+- [x] Configurable via YAML## 🎥 Demo Preview
+
+![ADAS Demo](assets/demo.gif)
 - [ ] Optional REST API or MQTT interface
 
 ---
