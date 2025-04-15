@@ -1,0 +1,32 @@
+name: 🧼 Lint & Docker Build
+
+on:
+  push:
+    branches: [ main ]
+    tags:
+      - 'v*'
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  lint-docker:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 📥 Checkout code
+      uses: actions/checkout@v3
+
+    - name: 🐍 Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+
+    - name: 📦 Install dependencies
+      run: |
+        pip install flake8
+
+    - name: 🧹 Run flake8 lint
+      run: flake8 src tests
+
+    - name: 🐳 Docker build
+      run: docker build -t adas-can-demo .

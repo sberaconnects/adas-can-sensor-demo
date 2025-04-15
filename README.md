@@ -1,3 +1,6 @@
+[![Lint & Docker Build](https://github.com/sberaconnects/adas-can-sensor-demo/actions/workflows/python-lint-docker.yml/badge.svg)]
+
+
 # ADAS CAN Sensor Simulator & Visualizer
 
 A complete Python-based Advanced Driver Assistance System (ADAS) demo that simulates CAN-based sensor data, processes it for Forward Collision Warning (FCW), visualizes it in real-time, and provides multiple interfaces including CLI, live plot, and a web dashboard.
@@ -120,6 +123,20 @@ Includes unit tests for:
 - CAN message decoding
 
 ---
+
+## ⚠️ CI Test Limitation (vcan0)
+
+Some tests (e.g., `CANInterface`) require a virtual CAN device (`vcan0`) which is not available in GitHub Actions environments. As such:
+
+- These tests are intended to run on Linux systems with `vcan` enabled.
+- To run them locally:
+
+```bash
+sudo modprobe vcan
+sudo ip link add dev vcan0 type vcan
+sudo ip link set up vcan0
+pytest
+
 
 ## 📦 Makefile Commands
 
